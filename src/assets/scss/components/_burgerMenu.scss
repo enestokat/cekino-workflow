@@ -1,0 +1,16 @@
+.menu-container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    .labeled{
+        margin-bottom: 0 !important;
+      }
+      > div {
+        margin-left: 10px;
+      }
+      .result-table {
+        height: 100%;
+        width: 100%;
+      } 
+  }

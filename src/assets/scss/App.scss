@@ -1,0 +1,17 @@
+@import "components/all";
+@import "pages/all";
+@import "utils/all";
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.App {
+    height: 100vh;
+    width: 100%;
+}
+.react-flow__attribution{
+    display: none;
+}

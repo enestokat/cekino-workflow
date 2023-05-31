@@ -1,0 +1,75 @@
+.pop-up-header{
+    background-color: #edecec;
+    height: 6vh;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #d5d4d4;
+    h3 {
+        margin: 0.3rem;
+        margin-left: 1.8rem;
+    }
+    .pop-up-close{
+        position: absolute;
+        top: 13px;
+        right: 15px;
+        cursor: pointer;
+        color: black;
+        font-size: 1.5rem;
+    }
+}
+.pop-up-title{
+    height: 2vh;
+    margin-top: 2rem;
+    margin-bottom: 5px;
+    width: 80%;
+    margin-left: 5.5%;
+}
+.pop-up-selectionBox-container{
+    display: flex;
+    justify-content: center;
+    .pop-up-selectionBox{
+        width: 90%;
+        font-size: 1.2rem;
+    }
+}
+.field.textarea{
+    text-align: center;
+    textarea{
+        height: 15rem;
+        width: 90% !important;
+    } 
+}
+.pop-up-footer{
+    background-color: #edecec;
+    height: 7vh;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    align-items: center;
+    border-top: 2px solid #d5d4d4;
+    margin-top: 2rem;
+    justify-content: flex-end;
+    Button{
+        margin-right: 1rem !important;
+    }
+}
+.parametre-buton-container{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    padding: 2rem 2rem 0rem 2.4rem;
+}
+.parametre-buton-container2{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    padding: 0rem 2rem 0rem 2.4rem;
+}
+.ace_editor.ace-github{
+    width: 536px !important; 
+    height: 300px !important;
+    margin-left: 2.3rem !important;
+    z-index: 0 !important;
+}
